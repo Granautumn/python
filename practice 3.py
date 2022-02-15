@@ -1,7 +1,10 @@
 precent = input('Введите процент скидки: ')
-if precent[-1:] in ('2','3','4','22','23','24','32','33','34','42','43','44','52','53','54','62','63','64','72','73','74','82','83','84','92','93','94'):
- print(precent, 'процента')
-elif precent [-1] in ('1','21','31','41','51','61','71','81','91'):
- print(precent, 'процент')
-else:
- print(precent, 'процентов')
+for precent in range(1, 101):
+    if 4 < precent % 100 <= 20:
+        print(precent, 'процентов')
+    elif precent % 10 == 1:
+        print(precent, 'процент')
+    elif 1 < precent % 10 < 5:
+        print(precent, 'процента')
+    else:
+        print(precent, 'процентов')
