@@ -1,10 +1,10 @@
-precent = input('Введите процент скидки: ')
-for precent in range(1, 101):
-    if 4 < precent % 100 <= 20:
-        print(precent, 'процентов')
+percent = input('Введите процент скидки: ')
+for percent in range(1, 101):
+    if 4 < percent % 100 <= 20:
+        print(percent, 'процентов')
     elif precent % 10 == 1:
-        print(precent, 'процент')
-    elif 1 < precent % 10 < 5:
-        print(precent, 'процента')
+        print(percent, 'процент')
+    elif 1 < percentt % 10 < 5:
+        print(percent, 'процента')
     else:
-        print(precent, 'процентов')
+        print(percent, 'процентов')
