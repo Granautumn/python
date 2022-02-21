@@ -2,8 +2,8 @@ my_text = ['в', '5', 'часов', '17', 'минут', 'температура'
 
 text = []
 
-for i in str:
-    if i.isdigit()
+for i in my_text:
+    if i.isdigit():
         text.append(f'"{int(i):02}"')
     else:
         try:
